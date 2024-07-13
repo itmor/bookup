@@ -1,0 +1,28 @@
+.show-book {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.show-book .show-book__preview {
+    width: 50%;
+}
+
+.show-book__rate-select {
+    max-width: 174px;
+    margin-right: 10px;
+}
+
+.book__rate {
+    display: flex;
+}
+
+@media (max-width: 650px) {
+    .show-book {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .show-book .show-book__preview {
+        width: 100%;
+    }
+}
